@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1119"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="IOT-Aldea.svg">
+  <defs
+     id="defs1113" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="156.47326"
+     inkscape:cy="932.86698"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1116">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g2424">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:7.00482225px;line-height:66.05000305;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffa719;fill-opacity:1;stroke:none;stroke-width:0.04378014;"
+         x="48.941757"
+         y="36.539989"
+         id="text2123"><tspan
+           sodipodi:role="line"
+           id="tspan2121"
+           x="48.941757"
+           y="36.539989"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.00482225px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffa719;fill-opacity:1;stroke-width:0.04378014;"><tspan
+   id="tspan1674"
+   style="fill:#000000;fill-opacity:1">IOT</tspan> Aldea</tspan></text>
+      <path
+         id="path26"
+         d="m 54.479724,30.049238 c 0.785015,0 1.516349,0.231335 2.130913,0.627869 l 0.308804,-0.438873 c -0.702557,-0.458241 -1.540146,-0.725548 -2.439717,-0.725548 -0.860833,0 -1.665218,0.24434 -2.348404,0.666884 l 0.307143,0.440256 c 0.596025,-0.361944 1.294985,-0.570588 2.041261,-0.570588"
+         inkscape:connector-curvature="0"
+         style="fill:#009fe3;stroke-width:0.27671105" />
+      <path
+         id="path28"
+         d="m 51.1753,28.810657 0.409525,0.586914 c 0.838419,-0.531018 1.83124,-0.840939 2.895452,-0.840939 1.10378,0 2.130913,0.332612 2.98815,0.90154 l 0.412014,-0.586084 c -0.974281,-0.651114 -2.143919,-1.031043 -3.400994,-1.031043 -1.215571,8.19e-4 -2.348958,0.357516 -3.304147,0.969612"
+         inkscape:connector-curvature="0"
+         style="fill:#009fe3;stroke-width:0.27671105" />
+      <path
+         id="path30"
+         d="m 54.480554,27.024179 c 1.431953,0 2.764017,0.434443 3.873054,1.176042 l 0.514951,-0.732191 c -1.255139,-0.844537 -2.7654,-1.338474 -4.388005,-1.338474 -1.580546,0 -3.052898,0.46931 -4.287561,1.273724 l 0.512183,0.73385 c 1.089668,-0.702582 2.38493,-1.112951 3.775378,-1.112951"
+         inkscape:connector-curvature="0"
+         style="fill:#009fe3;stroke-width:0.27671105" />
+      <path
+         id="path32"
+         d="m 54.581829,37.86951 c -0.785293,0 -1.516073,-0.231335 -2.131468,-0.628423 l -0.308803,0.438871 c 0.703386,0.459071 1.540699,0.725826 2.440271,0.725826 0.860556,0 1.665493,-0.244616 2.349234,-0.666609 l -0.307697,-0.440808 c -0.595748,0.362498 -1.295262,0.571143 -2.041537,0.571143"
+         inkscape:connector-curvature="0"
+         style="fill:#009fe3;stroke-width:0.27671105" />
+      <path
+         id="path34"
+         d="m 57.885976,39.108644 -0.409249,-0.587469 c -0.838142,0.531017 -1.830411,0.840387 -2.894622,0.840387 -1.103781,0 -2.131191,-0.331782 -2.988426,-0.90071 l -0.412291,0.585254 c 0.974282,0.651389 2.143917,1.03132 3.401269,1.03132 1.215294,0 2.348683,-0.356964 3.303319,-0.968782"
+         inkscape:connector-curvature="0"
+         style="fill:#009fe3;stroke-width:0.27671105" />
+      <path
+         id="path36"
+         d="m 54.581829,40.894292 c -1.432232,0 -2.764571,-0.433338 -3.873886,-1.175489 l -0.51495,0.73219 c 1.255139,0.844537 2.765401,1.338475 4.388836,1.338475 1.580268,0 3.052067,-0.469033 4.287561,-1.273723 l -0.512737,-0.733576 c -1.089116,0.702306 -2.38493,1.112123 -3.774824,1.112123"
+         inkscape:connector-curvature="0"
+         style="fill:#009fe3;stroke-width:0.27671105" />
+    </g>
+  </g>
+</svg>
