@@ -1,4 +1,0 @@
-ESP8266 https://www.amazon.es/AZDelivery-NodeMCU-Lolin-M%C3%B3dulo-Parent/dp/B0821L3JHX
-RFM95W https://www.amazon.es/RFM95W-SX1276-m%C3%B3dulo-transceptor-inal%C3%A1mbrico/dp/B079GFD25Z
-
-Historia de los ESP8266, pinout https://www.luisllamas.es/esp8266-nodemcu/
