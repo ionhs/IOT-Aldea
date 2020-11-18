@@ -7,7 +7,7 @@ El objetivo que tenemos es acercar y difundir los sistemas LoRa en la sociedad a
 - Dar a conocer la tecnología LoRa para el uso en el Internet de lasa Cosas y difundir el conocimiento.
 - Digitalizar mediante telegestión y telelectura el suministro de agua del municipio de Pasaia
 
-[![IOT Aldea](https://img.youtube.com/vi/DE_vUc4cTvA/0.jpg)](https://www.youtube.com/watch?v=DE_vUc4cTvA "IOT Aldea")
+[![IOT Aldea](./Imagenes/PortadaVideo.png)](https://www.youtube.com/watch?v=DE_vUc4cTvA "IOT Aldea")
 
 Hemos intentado estructurado el proyecto para que la curva de aprendizaje sea suave. Partiendo de los mínimos componentes que hacen falta para poner en marcha un sistema IOT con LoRa. Para poco a poco ir añadiendo complejidades y profundizando en cada uno de los elementos necesarios.
 
