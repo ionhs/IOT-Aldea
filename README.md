@@ -15,5 +15,5 @@ En la imagen de abajo se puede ver que la arquitectura  simplificada de un siste
 
 ![](./Imagenes/architecture-texto.png)
 
-1. Creación de [un sistema IOT con LoRa simple](https://zubirimanteo.hezkuntza.net/eu/inicio) partiendo de 0
+1. Creación de [un sistema IOT con LoRa simple](./Sistema_Simple/Sist-Simple-LoRa.md) partiendo de 0
 2. Continuamos trabajando
