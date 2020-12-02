@@ -51,6 +51,6 @@ La puesta en marcha está documentada en la [Quick Start Guide](https://docs.rak
 
    ![](./Imagenes/7249Reset.jpg)
 
-En el video se muestran los distintos pasos que se han realizado por los menús del equipo pero como se comenta antes, para usar TTN como Network Server no ha habido que modificar nada.
+En el [video se muestran como configurar el Gateway RAK7249 y el RAK7258](https://www.youtube.com/watch?v=WUNrpj3dMew) que se han realizado por los menús del equipo pero como se comenta antes, para usar TTN como Network Server no ha habido que realizar grandes modificaciones.
 
 ![](./Imagenes/GatewayInstalacion.png.png)
