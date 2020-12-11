@@ -15,5 +15,9 @@ En la imagen de abajo se puede ver que la arquitectura  simplificada de un siste
 
 ![](./Imagenes/architecture-texto.png)
 
-1. Creación de [un sistema IOT con LoRa simple](./Sistema_Simple/Sist-Simple-LoRa.md) partiendo de 0
-2. Continuamos trabajando
+1. Tutorial creación de [un sistema IOT con LoRa simple](./Sistema_Simple/Sist-Simple-LoRa.md) partiendo de 0
+2. Tutorial de [aplicación para leer los datos mediante Telegraf, guardarlos en InfluxDB y visualizarlos en Grafana](./TIG/TIG_simple.md).
+3. Varios materiales avanzados
+   - Video: [Configuración gateway LoRa RAK7249 y LoRa RAK7258](https://www.youtube.com/watch?v=WUNrpj3dMew) / [RAK7249 y LoRa RAK7258 LoRa gatewayaren konfigurazioa](https://www.youtube.com/watch?v=H9vIBrn2kCU)
+   - Video: [Leer datos de The Things of Network mediante MQTT](https://www.youtube.com/watch?v=ZnBAOsWYcM4) / [The Things of Network-eko datuak MQTT bidez irakurri](https://www.youtube.com/watch?v=NQOg4B4KH-I)
+

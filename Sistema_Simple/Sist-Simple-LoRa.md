@@ -10,7 +10,7 @@ En la imagen de abajo se puede ver que la arquitectura  simplificada de un siste
 
 - [Network Server](./Network_Server.md): Un servidor o grupo de servidores que tienen el objetivo de unir los datos del gateway con los servicios que ofrecen las aplicaciones. Para simplificar este proceso usamos la infraestructura abierta [The Thing Network](https://www.thethingsnetwork.org/).
 
-- [Aplicación](./Aplicacion): Teniendo acceso a los datos en bruto que hay en el Network Server se encarga de buscarle utilidad a esos datos para que tengan una finalidad que haya establecido algún usuario. Aunque hay múltiples aplicaciones con ciertas libertades en nuestro caso intentaremos identificar aplicaciones sencillas de poner en marcha como [Cayanne myDevices](https://developers.mydevices.com/cayenne/features/)  para visualizar los datos.
+- [Aplicación](./Aplicacion.md): Teniendo acceso a los datos en bruto que hay en el Network Server se encarga de buscarle utilidad a esos datos para que tengan una finalidad que haya establecido algún usuario. Aunque hay múltiples aplicaciones con ciertas libertades en nuestro caso intentaremos identificar aplicaciones sencillas de poner en marcha como [Cayanne myDevices](https://developers.mydevices.com/cayenne/features/)  para visualizar los datos.
 
 ![](./Imagenes/architecturesimple.png)
 

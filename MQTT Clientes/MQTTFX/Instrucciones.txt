@@ -1,0 +1,19 @@
+Conectar el pc a la red de DonBosco, no conectar al gateway 7249 LoRa porque no va
+
+Configurar:
+
+MQTT Broker Profile Settings
+Broken Adress: eu.thethings.network
+Broker Port: 1883
+
+User Credentials
+User Name: (dragino_test_aplicacion) Nombre de la aplicación de ttn
+Password: Access Key de la aplicación de ttn
+
+Connect
+
+Subscribe
++/devices/+/up
+Subscribe
+
+Tras lo cual cuando el nodo envie un dato al gateway/NetworkServer/MQTT se verá el JSON

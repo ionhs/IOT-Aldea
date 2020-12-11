@@ -47,10 +47,15 @@ La puesta en marcha está documentada en la [Quick Start Guide](https://docs.rak
 
 6. Queda por configurar el Gateway Lora/LoRa Packet Forwarder que predefinidamente viene cargado con los datos de TTN (protocolo, Server Address y Frecuency Plan). De manera que si se va a trabajar con el Network Server de TTN no suele hacer falta tocar nada.
 
-7. En cualquier momento se puede enviar al estado de fábrica soltando el tornillo de la parte de abajo y pulsado durante 5 segundos el botón de reset
+7. En cualquier momento se puede enviar al estado de fábrica soltando el tornillo de la parte de abajo y pulsado durante 5 segundos el botón de reset.
 
    ![](./Imagenes/7249Reset.jpg)
+   
 
 En el [video se muestran como configurar el Gateway RAK7249 y el RAK7258](https://www.youtube.com/watch?v=WUNrpj3dMew) que se han realizado por los menús del equipo pero como se comenta antes, para usar TTN como Network Server no ha habido que realizar grandes modificaciones.
+
+[![IOT Aldea](./Imagenes/GatewayVideo.png)](https://www.youtube.com/watch?v=DE_vUc4cTvA "IOT Aldea")
+
+Foto del gateway instalado en la fachada de Don Bosco dando cobertura a los municipios de Rentería, Pasajes, Lezo y Donostia.
 
 ![](./Imagenes/GatewayInstalacion.png.png)
