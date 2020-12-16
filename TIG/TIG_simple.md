@@ -14,7 +14,7 @@ A continuación explicaremos los pasos que hay que dar con cada uno de los bloqu
 
 - [Instalación y configuración de InfluxDB](./InfluxDB.md)
 - [Instalación y configuración de Telegraf](./Telegraf.md)
-- Instalación y configuración de Grafana
+- [Instalación y configuración de Grafana](./Grafana.md)
 
 Nosotros hemos realizado todos los pasos dentro de una máquina virtual y dejamos accesible para evitar que la gente se bloquee por problemas en la instalación. Solo hay que poner la máquina en marcha y el sistema funcionará.
 
