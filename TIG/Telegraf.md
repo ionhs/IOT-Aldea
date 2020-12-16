@@ -2,7 +2,7 @@
 
 Mediante un fichero de configuración Telegraf recolecta los datos y los envia a InfluxDB.
 
-![](C:\Users\I.Hernandez.ZUZ-JONHERNANDE\Documents\IOT-Aldea\TIG\Imagenes\InfluxDBesquema.png)
+![](./Imagenes/InfluxDBesquema.png)
 
 Tenemos que configurar la instancia de Telegraf para que lea los datos del servidor TTN (The Things Network). El TTN incluye un bróker MQTT, así que todo lo que tenemos que hacer es lo siguiente.
 
@@ -91,3 +91,5 @@ Los datos vistos en el TTN, después de pasar el decoder al Formato del Payload:
 ![](./Imagenes/Fields.png)
 
 Vemos que los datos son los mismo que han sido leídos por Telegraf y se han guardado correctamente en InfluxDb.
+
+Pasa al [siguiente paso Grafana](./Grafana.md)

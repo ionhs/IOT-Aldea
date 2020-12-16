@@ -70,3 +70,5 @@ Y salimos de INFLUX con el siguiente comando:
 ```
 exit
 ```
+
+Pasa al [siguiente paso Telegraf](.Telegraf.md)

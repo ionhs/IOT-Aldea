@@ -6,7 +6,7 @@ Vamos con el último paso, cómo instalar y configurar Grafana, pasos sencillos 
 
 Hay dos ediciones disponibles y para nuestras pruebas hemos utilizado la versión **OpenSource**.
 
-![](.\Imagenes\GrafanaLicencias.png)
+![](./Imagenes/GrafanaLicencias.png)
 
 Se puede instalar Grafana descargándola directamente desde su [sitio web oficial](https://grafana.com/grafana/download), o mediante [repositorio de APT](https://www.digitalocean.com/community/tutorials/ubuntu-and-debian-package-management-essentials#debian-package-management-tools-overview). Debido a que un repositorio de APT facilita la instalalación y administración de las actualizaciones de Grafana, [utilizaremos este método](https://grafana.com/docs/grafana/latest/installation/debian/).
 
@@ -44,7 +44,7 @@ sudo systemctl start grafana-server
 sudo systemctl status grafana-server
 ```
 
-![](.\Imagenes\Grafanasystemctl.png)
+![](./Imagenes/Grafanasystemctl.png)
 
 Si queremos que el servidor Grafana se inicialice de forma automática en el arranque tendremos que realizar lo siguiente:
 
@@ -64,7 +64,7 @@ La primera vez se nos pedirá que cambiemos el password.
 
 Una vez nos logueemos veremos esta pantalla de inicio:
 
-![](.\Imagenes\GrafanaInicio.png)
+![](.Imagenes/GrafanaInicio.png)
 
 Como precaución podemos deshabilitar el registro automático de usuarios editando para ello el fichero /etc/grana/grafana.ini y nos aseguraremos que estas líneas están así:
 
@@ -78,32 +78,32 @@ sudo systemctl restart grafana-server
 
 Ahora añadiremos orígenes de datos de InfluxDB haciendo click en Data Sources:
 
-![](.\Imagenes\GrafanaDataSource.png)
+![](./Imagenes/GrafanaDataSource.png)
 
-![](.\Imagenes\GrafanaDataSource2.png)
+![](./Imagenes/GrafanaDataSource2.png)
 
-![](.\Imagenes\GrafanaDataSource3.png)
+![](./Imagenes/GrafanaDataSource3.png)
 
 Y tendremos que marcar todas las opciones que vemos en la siguiente imagen:
 
-![](.\Imagenes\GrafanaSetting.png)
+![](./Imagenes/GrafanaSetting.png)
 
 Cuando hagamos “**Save & Test**”, si todo está bien, veremos una barrita verde diciendo que funciona:
 
-![](.\Imagenes\GrafanaDBok.png)
+![](./Imagenes/GrafanaDBok.png)
 
 Ahora iremos al **Explorer** de Grafana y veremos si tenemos los datos que nos llegan desde Telegraf, que estos a la vez son los datos que vienen del TTN.
 
-![](C:\Users\I.Hernandez.ZUZ-JONHERNANDE\Documents\IOT-Aldea\TIG\Imagenes\GrafanaPayload.png)
+![](./Imagenes/GrafanaPayload.png)
 
 La tabla desde donde recibiremos la información será el “**mqtt_consumer**” que hemos definido en la configuración del input de Telegraf. Como vemos en la imagen anterior tan sólo tenemos como columnas a elegir los datos leídos desde el TTN (**payload_fields_BatV, payload_fields_Hum_SHT, payload_fields_TempC_DS, payload_fields_TempC_SHT**).
 
 A partir de aquí quedaría graficar los datos que se vayan leyendo y guardando en InfluxDB y visualizarlos en un Dashboard de Grafana.
 
-![](.\Imagenes\GrafanaDashboard.png)
+![](./Imagenes/GrafanaDashboard.png)
 
 Como ejemplo, mostraremos unos ejemplos de Dahsboard realizados a partir de datos recibidos desde el nodo Dragino (**Dragino LHT65 Temperature & Humidity Sensor**) y nodo medidor de agua (**AXIOMA QALCOSONIC W1 - Medidor de agua ultrasónico inteligente**)
 
-![](.\Imagenes\GrafanaGrafico.png)
+![](./Imagenes/GrafanaGrafico.png)
 
 Con esto habríamos finalizado todo el proceso desde la obtención de los datos de TTN (Telegraf), pasando por guardarlos en una base de datos (InfluxDB) y finalizando al verse los datos como gráficos (Grafana)
