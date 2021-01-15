@@ -2,11 +2,41 @@
 
 Mediante un fichero de configuración Telegraf recolecta los datos y los envia a InfluxDB.
 
+Primeramente, tenemos que realizar la instalación del Agente de Servidor (Telegraf), el cual es controlado por complementos con el fin de recopilar e informar métricas para su administración.
+
+Telegraf es altamente escalable gracias a las integraciones que nos permite acceder a métricas, eventos y registros directamente de los contenedores y sistemas en los cuales se está ejecutando la utilidad. A partir de aquí se pueden extraer métricas de API de terceros o también acceder a métricas de los servicios consumidor de StatsD y Kafka. Además cuenta con complementos de salida para enviar métricas hacia otras bases o servicios como InfluxDB (nuestro caso), Graphite, OpenTSDB, Datadog, Librato, MQTT, NSQ y muchos más.
+
+Puesto que Telegraf ha sido creado por influxdata, la cual creó también influxdb; cuando se agregó el repositorio de influxdata anteriormente, es posible instalar ambas aplicaciones.
+
+Es por ello que ejecutando la siguiente línea tendremos instalado Telegraf:
+
+```
+sudo apt install telegraf -y
+```
+
+Ahora vamos a iniciar el servicio de telegrafía y habilitarlo para que se inicie cada vez que se inicie Ubuntu:
+
+```
+sudo systemctl start telegraf
+
+sudo systemctl enable telegraf
+```
+
+Para comprobar su estado ejecutamos la siguiente línea y podemos ver que su estado es activo y ejecutándose:
+
+```
+sudo systemctl status telegraf
+```
+
+![](./Imagenes/StatusTelegraf.png)
+
 ![](./Imagenes/InfluxDBesquema.png)
+
+
 
 Tenemos que configurar la instancia de Telegraf para que lea los datos del servidor TTN (The Things Network). El TTN incluye un bróker MQTT, así que todo lo que tenemos que hacer es lo siguiente.
 
-El servicio de Telegraf coge todas las configuraciones del fichero ubicado en **/etc/telegraf/telegraf.conf,** y en él encontramos las siguientes opciones:
+El servicio de Telegraf coge todas las configuraciones del fichero ubicado en **/etc/telegraf/telegraf.conf**. Al ser un agente basado en complementos éste cuenta con 4 tipos de complementos de concepto que son los siguientes:
 
 \-    [Input Plugins:](https://github.com/influxdata/telegraf#input-plugins) recolecta métricas del sistema, servicios, dispositivos IOT, etc.
 

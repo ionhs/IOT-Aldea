@@ -20,7 +20,7 @@ sudo apt-get install -y software-properties-common wget
 Ahora vamos a obtener los paquetes de Grafana de manera segura, para ello añadimos la clave GPG key de Grafana a nuestro sistema. Esto agregará la clave a la lista de claves de confianza de la instalación de APT, que le permitirá descargar y verificar el paquete Grafana firmado con GPG:
 
 ```
-wget -q -O - https://packages.grafana.com/gpg.key | sudo apt-key add –
+wget -q -O - https://packages.grafana.com/gpg.key | sudo apt-key add -
 ```
 
 A continuación, agregamos el repositorio de Grafana a las fuentes de APT:
@@ -64,7 +64,7 @@ La primera vez se nos pedirá que cambiemos el password.
 
 Una vez nos logueemos veremos esta pantalla de inicio:
 
-![](.Imagenes/GrafanaInicio.png)
+![](./Imagenes/GrafanaInicio.png)
 
 Como precaución podemos deshabilitar el registro automático de usuarios editando para ello el fichero /etc/grana/grafana.ini y nos aseguraremos que estas líneas están así:
 
