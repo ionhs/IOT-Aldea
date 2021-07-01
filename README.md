@@ -7,7 +7,7 @@ El objetivo que tenemos es acercar y difundir los sistemas LoRa en la sociedad a
 - Dar a conocer la tecnología LoRa para el uso en el Internet de lasa Cosas y difundir el conocimiento.
 - Digitalizar mediante telegestión y telelectura el suministro de agua del municipio de Pasaia
 
-[![IOT Aldea](./Imagenes/PortadaVideo.png)](https://www.youtube.com/watch?v=DE_vUc4cTvA "IOT Aldea")
+[![IOT Aldea](./Imagenes/PortadaVideo.png)](https://youtu.be/gNt_4oFipuk "IOT Aldea")
 
 Hemos intentado estructurado el proyecto para que la curva de aprendizaje sea suave. Partiendo de los mínimos componentes que hacen falta para poner en marcha un sistema IOT con LoRa. Para poco a poco ir añadiendo complejidades y profundizando en cada uno de los elementos necesarios.
 
@@ -16,8 +16,9 @@ En la imagen de abajo se puede ver que la arquitectura  simplificada de un siste
 ![](./Imagenes/architecture-texto.png)
 
 1. Tutorial creación de [un sistema IOT con LoRa simple](./Sistema_Simple/Sist-Simple-LoRa.md) partiendo de 0
-2. Tutorial de [aplicación para leer los datos mediante Telegraf, guardarlos en InfluxDB y visualizarlos en Grafana](./TIG/TIG_simple.md).
-3. Varios materiales avanzados
+2. Tutorial de [uso de una máquina virtual con todo el software necesario para visualizar nuestro Dragino LHT64 en un dashboard.](./Maq.Virtual/Maq.Virtual.md)
+3. Tutorial de [Instalación y configuración de aplicación para leer los datos mediante Telegraf, guardarlos en InfluxDB y visualizarlos en Grafana](./TIG/TIG_simple.md).
+4. Varios materiales avanzados
    - Video: [Configuración gateway LoRa RAK7249 y LoRa RAK7258](https://www.youtube.com/watch?v=WUNrpj3dMew) / [RAK7249 y LoRa RAK7258 LoRa gatewayaren konfigurazioa](https://www.youtube.com/watch?v=H9vIBrn2kCU)
    - Video: [Leer datos de The Things of Network mediante MQTT](https://www.youtube.com/watch?v=ZnBAOsWYcM4) / [The Things of Network-eko datuak MQTT bidez irakurri](https://www.youtube.com/watch?v=NQOg4B4KH-I)
 
