@@ -16,7 +16,7 @@ En la imagen de abajo se puede ver que la arquitectura  simplificada de un siste
 ![](./Imagenes/architecture-texto.png)
 
 1. Tutorial creación de [un sistema IOT con LoRa simple](./Sistema_Simple/Sist-Simple-LoRa.md) partiendo de 0
-2. Tutorial de [uso de una máquina virtual con todo el software necesario para visualizar nuestro Dragino LHT64 en un dashboard.](./Maq.Virtual/Maq.Virtual.md)
+2. Tutorial de [uso de una máquina virtual con todo el software necesario para visualizar nuestro Dragino LHT65 en un dashboard.](./Maq.Virtual/Maq.Virtual.md)
 3. Tutorial de [Instalación y configuración de aplicación para leer los datos mediante Telegraf, guardarlos en InfluxDB y visualizarlos en Grafana](./TIG/TIG_simple.md).
 4. Varios materiales avanzados
    - Video: [Configuración gateway LoRa RAK7249 y LoRa RAK7258](https://www.youtube.com/watch?v=WUNrpj3dMew) / [RAK7249 y LoRa RAK7258 LoRa gatewayaren konfigurazioa](https://www.youtube.com/watch?v=H9vIBrn2kCU)
